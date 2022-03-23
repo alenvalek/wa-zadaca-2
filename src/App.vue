@@ -1,32 +1,23 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+	<v-app class="valekovaPozadina">
+		<v-main>
+			<router-view />
+		</v-main>
+	</v-app>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+<script>
+export default {
+	name: "App",
+	mounted() {},
+	data: () => ({
+		// no delete
+	}),
+};
+</script>
+<style scoped>
+.valekovaPozadina {
+	background-color: #b8c6db !important;
+	background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%) !important;
 }
 </style>

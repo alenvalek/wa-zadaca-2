@@ -1,24 +1,6 @@
-# wa-zadaca002
+## Zadatak 2
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- IME I PREZIME: Alen Valek
+- JMBAG: 0303092444
+- KOLEGIJ: Web aplikacije
+- Opis zadatka: Slanje zahtjeva i prikaz u tablici
